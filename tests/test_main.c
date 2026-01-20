@@ -5,7 +5,7 @@
 int add(int a, int b) {
     return a + b;
 }
-
+// commented
 int main() {
     assert(add(2,3) == 5);
     assert(add(-1,1) == 0);
