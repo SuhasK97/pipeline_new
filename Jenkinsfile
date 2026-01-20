@@ -1,6 +1,10 @@
 pipeline {
     agent { label 'git_Pipeline' }
 
+    options {
+        timestamps()
+    }
+
     environment {
         GIT_REPO = 'https://github.com/SuhasK97/pipeline_new.git'
         BRANCH   = 'main'
